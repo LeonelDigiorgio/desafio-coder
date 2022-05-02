@@ -23,6 +23,33 @@ body {
     background-attachment: fixed;
 }
 
+
+/* ---- ANIMACIONES ---- */
+.animaciones{
+    /*height: 40px;
+    margin: 1px;*/
+    align-items: center;
+}
+.animaciones:hover{
+    animation: cambioTamaño 2s;
+}
+@keyframes cambioTamaño {
+    0%{ background-color: rgba(205, 205, 205, 0.500);
+        font-size: 2.6rem;
+        color: rgba(35, 35, 35, 0.983);
+    }
+    50%{background-color: rgba(205, 205, 205, 0.500);
+        font-size: 2.8rem;
+        color: rgb(49, 49, 49);
+    }
+    100%{background-color: rgba(205, 205, 205, 0.500);
+        font-size: 3rem;
+        color: rgb(55, 55, 55);
+    }
+}
+/* ---- ANIMACIONES ---- */
+
+
 /* ---- empieza HEADER ---- */
 header {
     grid-area: header;
@@ -100,7 +127,7 @@ ul li a {
 /* ---- primer contenedor galeria ----*/
 h2 {
     font-family: 'Inconsolata', monospace;
-    font-size: 4.5rem;
+    font-size: 2.5rem;
     font-weight: 900;
 }
 h3{
