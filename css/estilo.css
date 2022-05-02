@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+/* ---- font-family: 'Plus Jakarta Sans', sans-serif; ---- */
+/* ----font-family: 'Inconsolata', monospace;---- */
+
+* {
+    padding: 0;
+    margin: 0;
+    /*box-sizing: border-box;*/
+    font-size: 10px;
+}
+
+body {
+    min-height: 650px;
+    display: grid;
+    grid-template-areas: "header header header"
+        "gallery gallery gallery"
+        "gallery gallery gallery"
+        "gallery gallery gallery"
+        "footer footer footer"
+    ;
+    background-image: url(https://i.pinimg.com/originals/19/08/61/190861bdbb239b0f334f2677d406d6f8.jpg);
+    background-attachment: fixed;
+}
+
+/* ---- empieza HEADER ---- */
+header {
+    grid-area: header;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.877);
+    position: sticky;
+    top: 0;
+    -webkit-box-shadow: 2px 8px 35px -16px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 8px 35px -16px rgba(0,0,0,0.75);
+box-shadow: 2px 8px 35px -16px rgba(0,0,0,0.75);
+}
+
+/* ---- logo ---- */
+.container-logo {
+    width: 35%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.836);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+/* ---- fin logo ---- */
+/* ---- menu ---- */
+.container-menu {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-lista {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 600;
+    display: inline;
+    padding: 15px;
+}
+
+ul li a {
+    font-size: 15px;
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* ---- fin menu ---- */
+/* ---- termina HEADER ---- */
+
+
+
+
+/* ---- empieza MAIN HOME ---- */
+/* ---- contenedor graleria ----*/
+.grid-container {
+    grid-area: gallery;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 300px;
+    gap: 15px;
+}
+/* ---- primer contenedor galeria ----*/
+h2 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+h3{
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.lookeate-item {
+    margin: auto;
+    text-align: center;
+}
+ /* ----  contenedor foto chica pelo en la cara ----*/
+.imagen3 {   
+    grid-row-start: span 2;
+}
+/* ----  contenedor foto hombre barba ----*/
+.imagen4 {    
+    grid-row-start: span 2;
+}
+/* ---- fotos ----*/
+.gallery-imagen {  
+    width: 100%;
+    height: 100%;
+    object-fit: fill;   
+    -webkit-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+    box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+    gap: 10px;
+}
+/* ---- termina MAIN HOME--- */
+
+
+
+
+
+/* ---- empieza MAIN DAMA y BARBERIA ---- */
+.container-dama {
+    grid-area: gallery;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+.item {
+    height: 420px;
+    overflow: hidden;
+    display: flex;
+}
+.damas-imagen {
+    width: 50%;
+    -webkit-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+    box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+    gap: 10px;
+}
+.parrafo {
+    font-family: 'Inconsolata', monospace;
+    font-size: 30px;
+    font-weight: 800;
+    justify-items: end;
+    align-items: center;
+}
+/* ---- termina MAIN DAMA y BARBERIA---- */
+
+
+
+
+/* ---- empieza MAIN TURNOS ---- */
+.contenedorItemTurnos{
+    width: 90vw;
+    margin: auto;
+}
+.itemTurno{
+    margin: 10px;
+    min-height: 70px;
+    background-color: rgba(68, 218, 63, 0.342);
+    border-radius: 50px;
+    text-align: center;
+}
+.whatsappTurnos{
+    width: 70px;
+    height: 70px;
+}
+/* ---- fin MAIN TURNOS ---- */
+
+
+
+
+
+
+
+/* ---- comienza MAIN NOSOTROS ---- */
+.contenedorNosotros{
+    margin: auto;
+    display: flex;
+    align-items: center
+}
+.itemNosotros{
+    margin: 10px;   
+}
+/* ---- fin MAIN NOSOTROS ---- */
+
+
+
+
+
+
+/* ----------------- empieza FOOTER ----------------- */
+footer {
+    grid-area: footer;
+    background-color: rgba(61, 61, 61, 0.918);
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ----------------- frase derecho autor ----------------- */
+.copyright {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.copyright-item {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: blanchedalmond;
+}
+
+.redsocial-container {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.redsocial-item-insta {
+    height: 3rem;
+}
+.redsocial-item-face {
+    height: 3rem;
+    position: relative;
+    top: 12px;
+}
+.redsocial-item-whatsapp {
+    height: 3rem;
+}
+/* ---- termina FOOTER ---- */
+
+
+
+
+
+
+/* ---- MEDIA QUERIES INDEX ----*/
+/* ---- mobile ----*/
+@media screen and (max-width:340px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .logo {
+        font-size: 20px;
+        text-align: center;
+    }
+    .lookeate-item {
+        font-size: 25px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .copyright-item{
+        font-size: 10px;
+    }
+}
+/* ---- fin mobile ----*/
+
+/* ---- tablet ----*/
+@media screen and (min-width:341px) and (max-width:960px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .logo {
+        font-size: 20px;
+        text-align: center;
+    }
+    .copyright-item{
+        font-size: 5px;
+    }
+}
+/* ---- fin tablet ----*/
+/* ---- fin media queries INDEX ----*/
+
+
+/* ---- MEDIA QUERIES DAMAS y BARBERIA----*/
+/* ---- mobile ----*/
+@media screen and (max-width:340px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-dama {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .logo {
+        font-size: 20px;
+        text-align: center;
+    }
+    .damas-imagen {
+        width: 100%;
+        height: 100%;
+    }
+    .parrafo {
+        font-size: 15px;
+        text-align: center;
+    }
+    .copyright-item{
+        font-size: 10px;
+    }
+}
+/* ---- fin mobile ----*/
+
+/* ---- tablet ----*/
+@media screen and (min-width:341px) and (max-width:960px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-dama {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .logo {
+        font-size: 20px;
+        text-align: center;
+    }
+    .damas-imagen {
+        width: 100%;
+        height: 100%;
+    }
+    .parrafo {
+        font-size: 15px;
+        text-align: center;
+    }
+    .copyright-item{
+        font-size: 10px;
+    }
+}
+/* ---- fin tablet ----*/
+/* ---- fin media queries DAMAS y BARBERIA ----*/
+
+
+
+
+/* ---- MEDIA QUERIES TURNOS ----*/
+/* ---- mobile ----*/
+@media screen and (max-width:340px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .parrafo {
+        font-size: 15px;
+        text-align: center;
+    }
+    .copyright-item{
+        font-size: 10px;
+    }
+}
+/* ---- fin mobile ----*/
+
+/* ---- tablet ----*/
+@media screen and (min-width:341px) and (max-width:960px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .parrafo{
+        font-size: 20px;
+    }
+    .copyright-item{
+        font-size: 15px;
+    }
+}
+/* ---- fin tablet ----*/
+/* ---- fin MEDIA QUERIES TURNOS ----*/
+
+
+/* ---- MEDIA QUERIES NOSOTROS ----*/
+/* ---- mobile ----*/
+@media screen and (max-width:340px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .parrafo {
+        font-size: 15px;
+        text-align: center;
+    }
+    .copyright-item{
+        font-size: 10px;
+    }
+    .contenedorNosotros{
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* ---- fin mobile ----*/
+
+/* ---- tablet ----*/
+@media screen and (min-width:341px) and (max-width:960px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorNosotros{
+        display: flex;
+        flex-direction: column;
+    }
+    .parrafo{
+        font-size: 20px;
+    }
+    .copyright-item{
+        font-size: 15px;
+    }
+}
+/* ---- fin tablet ----*/
+/* ---- fin MEDIA QUERIES NOSOTROS ----*/
