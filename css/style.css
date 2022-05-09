@@ -53,6 +53,12 @@
 
 
 /* -------------------------------------------- empieza MAIN HOME */
+.container-animaciones{
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
 h2 {
     font-family: 'Inconsolata', monospace;
     font-size: 3.7rem;
@@ -143,7 +149,7 @@ h4{
 /* ----------------------------------------------- empieza FOOTER */
 footer {
     grid-area: footer;
-    background-color: rgba(0, 0, 0, 0.707);
+    background-color: rgba(0, 0, 0, 0.609);
     height: 65px;
     display: flex;
     justify-content: space-between;
@@ -177,8 +183,6 @@ footer {
 }
 .redsocial-item-face {
     height: 3rem;
-    position: relative;
-    top: 12px;
 }
 .redsocial-item-whatsapp {
     height: 3rem;
@@ -202,10 +206,6 @@ footer {
     .logo{
         font-size: 2.2rem;
     }
-   .gallery-imagen{
-
-   }
-    
 }
 
 /* tablet */
