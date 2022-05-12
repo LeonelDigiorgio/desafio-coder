@@ -1,215 +1,152 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap");
 /* ---- font-family: 'Plus Jakarta Sans', sans-serif; ---- */
 /* ----font-family: 'Inconsolata', monospace;---- */
-
 * {
-    padding: 0;
-    margin: 0;
-    font-size: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
 }
 
-/* -------------------------------------------------- ANIMACIONES */
-.animaciones:hover{
-    animation: cambioTamaño 2s;
-}
-@keyframes cambioTamaño {
-    0%{ background-color: rgba(205, 205, 205, 0.500);
-        font-size: 3.7rem;
-        color: rgba(123, 0, 0, 0.983);
-    }
-    50%{background-color: rgba(205, 205, 205, 0.500);
-        font-size: 4rem;
-        color: rgba(123, 0, 0, 0.983);
-    }
-    100%{background-color: rgba(205, 205, 205, 0.500);
-        font-size: 4.5rem;
-        color: rgba(123, 0, 0, 0.983);
-    }
-}
-/* ---- fin ANIMACIONES ---- */
-
-
-
-/* ------------------------------------------------ empieza HEADER */
-/* ---- logo ---- */
-.logo{
-    color:rgba(255, 255, 255, 0.5);
-    font-size: 4rem;
-    text-decoration: none;
-}
-.logo:hover{
-    text-decoration: none;
-    color: darkgoldenrod;
-}
-/* ---- fin HEADER ----*/
-
-
-/* ----------------------------------------------------- CARUSEL */
-.container-carousel{
-    width: 50%;
-    margin: auto;
+h1 {
+  font-family: "Inconsolata", monospace;
+  font-size: 4.2rem;
+  font-weight: 900;
+  color: rgb(49, 47, 58);
 }
 
-
-/* -------------------------------------------- empieza MAIN HOME */
-.container-animaciones{
-    width: 100%;
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
-}
 h2 {
-    font-family: 'Inconsolata', monospace;
-    font-size: 3.7rem;
-    font-weight: 900;
-}
-h3{
-    font-family: 'Inconsolata', monospace;
-    font-size: 3.5rem;
-    font-weight: 600;
-}
-h4{
-    font-family: 'Inconsolata', monospace;
-    font-size: 2.7rem;
-    font-weight: 600;
+  font-family: "Inconsolata", monospace;
+  font-size: 3.7rem;
+  font-weight: 900;
+  color: rgb(49, 47, 58);
 }
 
-/* ---- fotos ----*/
-.gallery-imagen {  
-    width: 80%;
-    height: 80%;
-    object-fit: contain;   
-    -webkit-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
-    box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
-    gap: 10px;
-}
-/* ---- fin MAIN HOME--- */
-
-
-
-
-
-/* ----------------------------------- empieza MAIN DAMA y BARBERIA */
-.damas-imagen {
-    width: 50%;
-    -webkit-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
-    box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
-    gap: 10px;
-}
-/* ---- fin MAIN DAMA y BARBERIA---- */
-
-
-
-
-/* -------------------------------------------- empieza MAIN TURNOS */
-.contenedorItemTurnos{
-    width: 90vw;
-    margin: auto;
-}
-.itemTurno{
-    margin: 10px;
-    min-height: 70px;
-    background-color: rgba(68, 218, 63, 0.342);
-    border-radius: 50px;
-    text-align: center;
-}
-.whatsappTurnos{
-    width: 70px;
-    height: 70px;
-}
-/* ---- fin MAIN TURNOS ---- */
-
-
-
-
-/* --------------------------------------- comienza MAIN NOSOTROS */
-.contenedorNosotros{
-    margin: auto;
-    display: flex;
-    align-items: center
-}
-.itemNosotros{
-    margin: 10px;   
-}
-/* ---- fin MAIN NOSOTROS ---- */
-
-
-
-
-/* ----------------------------------------------- empieza FOOTER */
-footer {
-    grid-area: footer;
-    background-color: rgba(0, 0, 0, 0.609);
-    height: 65px;
-    display: flex;
-    justify-content: space-between;
+h3 {
+  font-family: "Inconsolata", monospace;
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: rgb(49, 47, 58);
 }
 
-/* ---- frase derecho autor ---- */
-.copyright {
-    font-family: 'Plus Jakarta Sans', sans-serif;
-    width: 40%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    
+h4 {
+  font-family: "Inconsolata", monospace;
+  font-size: 2.7rem;
+  font-weight: 600;
+  color: rgb(49, 47, 58);
 }
 
-.copyright-item {
-    font-family: 'Plus Jakarta Sans', sans-serif;
+body {
+  width: 100%;
+  background-color: rgb(254, 240, 229);
+  /* ----------------------------------------------- empieza MEDIA QUERIES */
+  /*  mobile */
+  /* tablet */
+}
+@media screen and (max-width: 350px) {
+  body h2 {
     font-size: 2rem;
-    font-weight: 300;
-    color: rgb(255, 255, 255);
+  }
+  body h3 {
+    font-size: 1.7rem;
+  }
+  body h4 {
+    font-size: 1.5rem;
+  }
+  body .logo {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 351px) and (max-width: 990px) {
+  body h2 {
+    font-size: 3rem;
+  }
+  body h3 {
+    font-size: 2.5rem;
+  }
+  body h4 {
+    font-size: 1.7rem;
+  }
 }
 
-.redsocial-container {
-    width: 25%;
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
+.container-animaciones {
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
 }
-.redsocial-item-insta {
-    height: 3rem;
-}
-.redsocial-item-face {
-    height: 3rem;
-}
-.redsocial-item-whatsapp {
-    height: 3rem;
-}
-/* ---- fin FOOTER ---- */
-
-
-/* ----------------------------------------------- empieza MEDIA QUERIES */
-/*  mobile */
-@media screen and (max-width:580px) {
-    h2{
-        font-size: 2rem;
-    }
-    h3{
-        font-size: 1.7rem;
-    }
-    h4{
-        font-size: 1.5rem;
-    }
-
-    .logo{
-        font-size: 2.2rem;
-    }
+.container-animacioneshover {
+  animation: cambioTamaño 2s;
 }
 
-/* tablet */
-@media screen and (min-width:581px) and (max-width:990px) {
-    h2{
-        font-size: 3rem;
-    }
-    h3{
-        font-size: 2.5rem;
-    }
-    h4{
-        font-size: 1.7rem;
-    }
+footer {
+  background-color: rgb(198, 155, 123);
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
 }
+footer .copyright {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+footer .copyright .copyright-item {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  color: rgb(254, 240, 229);
+}
+footer .redsocial-container {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+footer .redsocial-container a .redsocial-item {
+  height: 3rem;
+}
+
+header nav div .logo {
+  color: rgb(198, 155, 123);
+  font-size: 4rem;
+  text-decoration: none;
+}
+header nav div .logo:hover {
+  color: rgb(254, 240, 229);
+}
+header nav div div div .nav-link {
+  font-size: 2rem;
+}
+
+.container-carousel {
+  width: 60%;
+  margin: auto;
+}
+
+.container {
+  margin: 20px auto;
+  width: 100%;
+}
+.container .row {
+  margin: auto;
+}
+.container .row .col {
+  margin: auto;
+}
+.container .gallery-imagen {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  -webkit-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+  box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+  gap: 10px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

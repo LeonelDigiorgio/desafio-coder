@@ -1,0 +1,32 @@
+footer{
+    background-color: nth($colores, 2 );
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    .copyright{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        width: 40%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        
+        .copyright-item{
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-size: 2rem;
+            font-weight: 300;
+            color: nth($colores , 1 );
+        }
+    }
+    .redsocial-container{
+          width: 25%;
+          display: flex;
+          justify-content: space-around;
+          margin: auto;
+        a{
+            .redsocial-item{
+                height: 3rem;
+            }
+        }
+        
+    }
+}

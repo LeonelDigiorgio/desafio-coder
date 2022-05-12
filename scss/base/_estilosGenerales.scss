@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+/* ---- font-family: 'Plus Jakarta Sans', sans-serif; ---- */
+/* ----font-family: 'Inconsolata', monospace;---- */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+
+h1{
+    font-family: 'Inconsolata', monospace;
+    font-size: 4.2rem;
+    font-weight: 900;
+    color: rgb(49, 47, 58);
+}
+h2{
+    font-family: 'Inconsolata', monospace;
+    font-size: 3.7rem;
+    font-weight: 900;
+    color: rgb(49, 47, 58);
+}
+h3{
+    font-family: 'Inconsolata', monospace;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: rgb(49, 47, 58);
+}
+h4{
+    font-family: 'Inconsolata', monospace;
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: rgb(49, 47, 58);
+}
+
+
+body{
+    width: 100%;
+    background-color: rgb(254, 240, 229);
+
+  
+
+    /* ----------------------------------------------- empieza MEDIA QUERIES */
+/*  mobile */
+@media screen and (max-width:350px) {
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.7rem;
+    }
+    h4{
+        font-size: 1.5rem;
+    }
+
+    .logo{
+        font-size: 2.2rem;
+    }
+}
+
+/* tablet */
+@media screen and (min-width:351px) and (max-width:990px) {
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2.5rem;
+    }
+    h4{
+        font-size: 1.7rem;
+    }
+}
+
+}
+

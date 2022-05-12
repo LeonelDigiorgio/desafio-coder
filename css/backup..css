@@ -1,0 +1,67 @@
+
+
+/* -------------------------------------------------- ANIMACIONES */
+.animaciones:hover{
+    animation: cambioTamaño 2s;
+}
+@keyframes cambioTamaño {
+    0%{ background-color: rgba(205, 205, 205, 0.500);
+        font-size: 3.7rem;
+        color: rgba(123, 0, 0, 0.983);
+    }
+    50%{background-color: rgba(205, 205, 205, 0.500);
+        font-size: 4rem;
+        color: rgba(123, 0, 0, 0.983);
+    }
+    100%{background-color: rgba(205, 205, 205, 0.500);
+        font-size: 4.5rem;
+        color: rgba(123, 0, 0, 0.983);
+    }
+}
+/* ---- fin ANIMACIONES ---- */
+
+
+/* ----------------------------------- empieza MAIN DAMA y BARBERIA */
+.damas-imagen {
+    width: 50%;
+    -webkit-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+    box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+    gap: 10px;
+}
+/* ---- fin MAIN DAMA y BARBERIA---- */
+
+
+/* -------------------------------------------- empieza MAIN TURNOS */
+.contenedorItemTurnos{
+    width: 90vw;
+    margin: auto;
+}
+.itemTurno{
+    margin: 10px;
+    min-height: 70px;
+    background-color: rgba(68, 218, 63, 0.342);
+    border-radius: 50px;
+    text-align: center;
+}
+.whatsappTurnos{
+    width: 70px;
+    height: 70px;
+}
+/* ---- fin MAIN TURNOS ---- */
+
+
+/* --------------------------------------- comienza MAIN NOSOTROS */
+.contenedorNosotros{
+    margin: auto;
+    display: flex;
+    align-items: center
+}
+.itemNosotros{
+    margin: 10px;   
+}
+/* ---- fin MAIN NOSOTROS ---- */
+
+
+
+
