@@ -81,7 +81,6 @@ body {
 }
 
 .container-animaciones {
-  width: 100%;
   padding: 20px;
   margin: 20px;
   text-align: center;
@@ -121,7 +120,7 @@ footer .redsocial-container a .redsocial-item {
 
 header nav div .logo {
   color: rgb(198, 155, 123);
-  font-size: 4rem;
+  font-size: 3.5rem;
   text-decoration: none;
 }
 header nav div .logo:hover {
