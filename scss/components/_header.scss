@@ -1,6 +1,8 @@
 header{ 
-    nav{
-        div{
+    .navbar{
+        
+        .container-fluid{
+            
             .logo{
                     color: nth($colores, 2 );
                     font-size: 3.5rem;
@@ -12,7 +14,7 @@ header{
             div{
                 div{
                     .nav-link{
-                        font-size: 2rem;
+                        font-size: 1.7rem;
                     }
                 }
             }

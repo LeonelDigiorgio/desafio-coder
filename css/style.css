@@ -80,59 +80,89 @@ body {
   }
 }
 
-.container-animaciones {
+.animaciones {
   padding: 20px;
   margin: 20px;
   text-align: center;
 }
-.container-animacioneshover {
+.animaciones .animaciones-item {
+  border-radius: 40%;
+  background-color: rgb(198, 155, 123);
+  margin: 10px auto;
+  width: 35%;
+}
+.animaciones .animaciones-itemhover {
   animation: cambioTamaño 2s;
 }
 
-footer {
+.animaciones-item:hover {
+  animation: cambioTamaño 2s;
+}
+
+@keyframes cambioTamaño {
+  0% {
+    background-color: rgba(205, 205, 205, 0.5);
+    font-size: 3.7rem;
+    color: rgba(123, 0, 0, 0.983);
+  }
+  50% {
+    background-color: rgba(205, 205, 205, 0.5);
+    font-size: 4rem;
+    color: rgba(123, 0, 0, 0.983);
+  }
+  100% {
+    background-color: rgba(205, 205, 205, 0.5);
+    font-size: 4.5rem;
+    color: rgba(123, 0, 0, 0.983);
+  }
+}
+.footer {
   background-color: rgb(198, 155, 123);
-  height: 65px;
+  max-height: 300px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
-footer .copyright {
-  font-family: "Plus Jakarta Sans", sans-serif;
-  width: 40%;
-  margin: auto;
+.footer .copyright {
+  width: 330px;
+  margin: 10px auto;
   display: flex;
   justify-content: center;
 }
-footer .copyright .copyright-item {
+.footer .copyright .copyright-item {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
-  color: rgb(254, 240, 229);
+  color: rgb(0, 0, 0);
 }
-footer .redsocial-container {
-  width: 25%;
+.footer .redsocial-container {
+  width: 330px;
   display: flex;
   justify-content: space-around;
-  margin: auto;
+  margin: 10px auto;
 }
-footer .redsocial-container a .redsocial-item {
-  height: 3rem;
+.footer .redsocial-container a .redsocial-item {
+  height: 4rem;
 }
 
-header nav div .logo {
+header .navbar .container-fluid .logo {
   color: rgb(198, 155, 123);
   font-size: 3.5rem;
   text-decoration: none;
 }
-header nav div .logo:hover {
+header .navbar .container-fluid .logo:hover {
   color: rgb(254, 240, 229);
 }
-header nav div div div .nav-link {
-  font-size: 2rem;
+header .navbar .container-fluid div div .nav-link {
+  font-size: 1.7rem;
 }
 
 .container-carousel {
-  width: 60%;
+  width: 70%;
   margin: auto;
+  -webkit-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+  box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
 }
 
 .container {
@@ -140,21 +170,82 @@ header nav div div div .nav-link {
   width: 100%;
 }
 .container .row {
-  margin: auto;
+  margin: 5px;
 }
 .container .row .col {
   margin: auto;
+  text-align: center;
 }
 .container .gallery-imagen {
   width: 80%;
-  height: 80%;
-  object-fit: contain;
+  object-fit: cover;
   -webkit-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
   box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
   gap: 10px;
   overflow: hidden;
   margin: 10px;
+}
+
+.marcas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px auto;
+}
+.marcas .marcas-item {
+  margin: 20px;
+  flex: wrap;
+}
+.marcas .marcas-item .marca-imagen {
+  width: 270px;
+}
+
+.damas-imagen {
+  width: 50%;
+  -webkit-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+  box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+  gap: 10px;
+}
+
+.contenedorItemTurnos {
+  width: 90vw;
+  margin: auto;
+}
+
+.itemTurno {
+  margin: 10px;
+  min-height: 70px;
+  background-color: rgba(68, 218, 63, 0.342);
+  border-radius: 50px;
+  text-align: center;
+}
+
+.whatsappTurnos {
+  width: 70px;
+  height: 70px;
+}
+
+.contenedorNosotros {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contenedorNosotros-item {
+  text-align: center;
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.imagenNosotros {
+  -webkit-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+  box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
 }
 
 /*# sourceMappingURL=style.css.map */

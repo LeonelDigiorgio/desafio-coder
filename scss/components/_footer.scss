@@ -1,12 +1,12 @@
-footer{
+.footer{
     background-color: nth($colores, 2 );
-    height: 65px;
+    max-height: 300px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     .copyright{
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        width: 40%;
-        margin: auto;
+        width: 330px;
+        margin: 10px auto;
         display: flex;
         justify-content: center;
         
@@ -14,17 +14,17 @@ footer{
             font-family: 'Plus Jakarta Sans', sans-serif;
             font-size: 1.6rem;
             font-weight: 300;
-            color: nth($colores , 1 );
+            color: nth($colores , 4 );
         }
     }
     .redsocial-container{
-          width: 25%;
+          width: 330px;
           display: flex;
           justify-content: space-around;
-          margin: auto;
+          margin: 10px auto;
         a{
             .redsocial-item{
-                height: 3rem;
+                height: 4rem;
             }
         }
         

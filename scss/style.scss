@@ -3,8 +3,12 @@
 @import "../scss/base/listas";
 
 // COMPONENTES
-@import "./components/animaciones";
-@import "./components/footer";
-@import "./components/header"; 
-@import "./components/carousel";
-@import "./components/galeriaImagenes";
+@import "../scss/components/animaciones";
+@import "../scss/components/footer";
+@import "../scss/components/header"; 
+@import "../scss/components/carousel";
+@import "../scss/components/galeriaImagenes";
+@import "../scss/components/marcas";
+@import "../scss/components/mainDamaBarberia";
+@import "../scss/components/mainTurnos";
+@import "../scss/components/mainNosotros";

@@ -1,0 +1,17 @@
+.contenedorNosotros{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contenedorNosotros-item{
+    text-align: center;
+    width: 400px;
+    margin: 10px auto;  
+    padding: 10px; 
+}
+.imagenNosotros{
+    -webkit-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+        box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+}

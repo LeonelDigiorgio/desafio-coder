@@ -1,0 +1,16 @@
+.marcas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px auto;
+
+    .marcas-item{
+        margin: 20px;
+        flex: wrap;
+        .marca-imagen{
+            width: 270px;
+        }
+
+    }
+}
