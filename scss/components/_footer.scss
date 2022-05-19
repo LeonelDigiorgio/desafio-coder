@@ -1,5 +1,5 @@
 .footer{
-    background-color: nth($colores, 2 );
+    background-color: nth($colores, 4 );
     max-height: 300px;
     display: flex;
     flex-wrap: wrap;
@@ -22,6 +22,7 @@
           display: flex;
           justify-content: space-around;
           margin: 10px auto;
+          background-color: nth($colores , 1 );
         a{
             .redsocial-item{
                 height: 4rem;

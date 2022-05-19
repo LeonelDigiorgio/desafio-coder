@@ -1,36 +1,16 @@
 .animaciones{
     padding: 20px;
-    margin: 20px;
     text-align: center;
+    background-color: nth($colores , 3 );
     
-    .animaciones-item{
-        border-radius: 40%;
-        background-color: nth($colores , 2 );
+    .animaciones-letras{
+        color: nth($colores , 1 );
         margin: 10px auto;
-        width: 35%;
-        &hover{
-            animation: cambioTamaño 2s;
-        }
     }
  }
 
-
- .animaciones-item:hover{
-    animation: cambioTamaño 2s;
-}
-@keyframes cambioTamaño {
-    0%{ background-color: rgba(205, 205, 205, 0.500);
-        font-size: 3.7rem;
-        color: rgba(123, 0, 0, 0.983);
-    }
-    50%{background-color: rgba(205, 205, 205, 0.500);
-        font-size: 4rem;
-        color: rgba(123, 0, 0, 0.983);
-    }
-    100%{background-color: rgba(205, 205, 205, 0.500);
-        font-size: 4.5rem;
-        color: rgba(123, 0, 0, 0.983);
-    }
+ .animaciones-letras:hover{
+    color: nth($colores , 2 );
 }
 
  

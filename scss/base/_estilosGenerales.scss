@@ -40,7 +40,7 @@ h4{
 
 body{
     width: 100%;
-    background-color: rgb(254, 240, 229);
+    background-color: white;
 
   
 
@@ -69,7 +69,11 @@ body{
     .col{
         margin: auto;
     }
-}
+    .container-carousel{
+        width: 100%;
+    }
+  
+   
 
 /* tablet */
 @media screen and (min-width:351px) and (max-width:990px) {
@@ -82,7 +86,14 @@ body{
     h4{
         font-size: 2rem;
     }
-}
+    .container-carousel{
+        width: 100%;
+    }   
+    
+ }
+ 
 
-}
+ }
+ 
 
+ }
