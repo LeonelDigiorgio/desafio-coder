@@ -1,13 +1,13 @@
 .footer{
     background-color: map-get($footer , bg-footer );
     max-height: 300px;
-    display: flex;
+    display: map-get($footer , display );
     flex-wrap: wrap;
     justify-content: map-get($footer , justify-content );
     .copyright{
         width: 330px;
         margin: 10px auto;
-        display: flex;
+        display: map-get($footer , display );
         justify-content: center;
         
         .copyright-item{
@@ -19,8 +19,8 @@
     }
     .redsocial-container{
           width: 330px;
-          display: flex;
-          justify-content: space-around;
+          display: map-get($footer , display );
+          justify-content: map-get($footer , justify-content );
           margin: 10px auto;
           
         a{
