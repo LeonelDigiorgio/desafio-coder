@@ -1,8 +1,5 @@
 .marcas{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+    @extend %flex;
     margin: 30px auto;
     background-color: nth($colores , 3 );
 

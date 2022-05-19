@@ -87,6 +87,13 @@ body {
   }
 }
 
+.marcas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .animaciones {
   padding: 20px;
   text-align: center;
@@ -175,10 +182,6 @@ header .navbar .container-fluid div div .nav-link {
 }
 
 .marcas {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
   margin: 30px auto;
   background-color: rgb(43, 41, 50);
 }
