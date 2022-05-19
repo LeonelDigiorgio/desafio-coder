@@ -1,9 +1,9 @@
 .footer{
-    background-color: nth($colores, 4 );
+    background-color: map-get($footer , bg-footer );
     max-height: 300px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: map-get($footer , justify-content );
     .copyright{
         width: 330px;
         margin: 10px auto;
@@ -11,10 +11,10 @@
         justify-content: center;
         
         .copyright-item{
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            font-size: 1.6rem;
+            font-family:'Plus Jakarta Sans', sans-serif;
+            font-size: map-get($footer , font-size );
             font-weight: 300;
-            color: nth($colores , 4 );
+            color: map-get($footer , color);
         }
     }
     .redsocial-container{
@@ -22,10 +22,12 @@
           display: flex;
           justify-content: space-around;
           margin: 10px auto;
-          background-color: nth($colores , 1 );
+          
         a{
             .redsocial-item{
                 height: 4rem;
+                background-color: map-get($footer , color );
+                padding: 5px;
             }
         }
         
