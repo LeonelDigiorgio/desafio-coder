@@ -1,8 +1,5 @@
 .contenedorNosotros{
-    margin: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+  @include nosotros (10px, flex, wrap, center);
 }
 .contenedorNosotros-item{
     text-align: center;
