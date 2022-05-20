@@ -201,6 +201,11 @@ header .navbar .container-fluid div div .nav-link {
   gap: 10px;
 }
 
+.titulo-damasCaballero {
+  margin: 10px;
+  text-align: center;
+}
+
 .contenedorItemTurnos {
   width: 90vw;
   margin: auto;
