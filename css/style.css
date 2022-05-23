@@ -106,6 +106,8 @@ body {
 }
 
 .animaciones {
+  width: 90%;
+  margin: 0px auto 20px auto;
   padding: 20px;
   text-align: center;
   background-color: rgb(43, 41, 50);
@@ -177,9 +179,6 @@ header .navbar .container-fluid div div .nav-link {
 .container-carousel {
   width: 90%;
   margin: auto;
-  -webkit-box-shadow: 0px -24px 93px 8px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px -24px 93px 8px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px -24px 93px 8px rgba(0, 0, 0, 0.75);
 }
 
 .container {
@@ -188,24 +187,22 @@ header .navbar .container-fluid div div .nav-link {
 }
 .container .row {
   text-align: center;
+  align-items: center;
 }
 .container .row .col {
-  margin: auto;
-  text-align: center;
+  margin: 10px auto;
 }
 .container .gallery-imagen {
-  width: 100%;
+  width: 90%;
   object-fit: cover;
   -webkit-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
   box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
-  gap: 10px;
-  overflow: hidden;
-  margin: 10px;
 }
 
 .marcas {
-  margin: 20px auto;
+  width: 90%;
+  margin: 0px auto 20px auto;
   background-color: rgb(43, 41, 50);
 }
 .marcas .marcas-item {
@@ -218,6 +215,16 @@ header .navbar .container-fluid div div .nav-link {
 }
 .marcas .marcas-item .marca-imagen {
   width: 160px;
+}
+
+.titulo-marcas {
+  text-align: center;
+  width: 90%;
+  margin: 25px auto 0px auto;
+  padding: 10px;
+  font-weight: 300;
+  background-color: rgb(43, 41, 50);
+  color: rgb(255, 248, 243);
 }
 
 .damas-imagen {

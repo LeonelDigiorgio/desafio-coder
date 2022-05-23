@@ -1,6 +1,7 @@
 .marcas{
     @extend %flex;
-    margin: 20px auto;
+    width: 90%;
+    margin: 0px auto 20px auto;
     background-color: nth($colores , 3 );
 
     .marcas-item{
@@ -15,4 +16,14 @@
         }
 
     }
+}
+
+.titulo-marcas{
+    text-align: center;
+    width: 90%;
+    margin: 25px auto 0px auto;
+    padding: 10px;
+    font-weight: 300;
+    background-color: nth($colores , 3 );
+    color: nth($colores , 1 );
 }
