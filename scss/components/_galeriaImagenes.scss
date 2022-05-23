@@ -2,14 +2,14 @@
     margin: 20px auto;
     width: 100%;
     .row{
-        margin: 5px;
+        text-align: center;
         .col{
             margin: auto;
             text-align: center; 
         }
     }
     .gallery-imagen {  
-        width: 80%;
+        width: 100%;
         object-fit: cover;   
         -webkit-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);

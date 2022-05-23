@@ -1,13 +1,17 @@
 .marcas{
     @extend %flex;
-    margin: 30px auto;
+    margin: 20px auto;
     background-color: nth($colores , 3 );
 
     .marcas-item{
-        margin: 20px;
-        flex: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        height: 100px;
+        margin: 15px auto;
+        display: flex;
         .marca-imagen{
-            width: 270px;
+            width: 160px;
         }
 
     }

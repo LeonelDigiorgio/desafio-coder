@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
-/* ---- font-family: 'Plus Jakarta Sans', sans-serif; ---- */
-/* ----font-family: 'Inconsolata', monospace;---- */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* ---- font-family: 'Raleway', sans-serif; ---- */
+
 
 
 *{
@@ -13,26 +12,26 @@
 
 
 h1{
-    font-family: 'Inconsolata', monospace;
-    font-size: 4.2rem;
-    font-weight: 900;
+    font-family:'Raleway', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
     color: rgb(49, 47, 58);
 }
 h2{
-    font-family: 'Inconsolata', monospace;
-    font-size: 3.7rem;
-    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 600;
     color: rgb(49, 47, 58);
 }
 h3{
-    font-family: 'Inconsolata', monospace;
-    font-size: 3.5rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4rem;
     font-weight: 600;
     color: rgb(49, 47, 58);
 }
 h4{
-    font-family: 'Inconsolata', monospace;
-    font-size: 2.7rem;
+    
+    font-size: 2rem;
     font-weight: 600;
     color: rgb(49, 47, 58);
 }
@@ -48,20 +47,24 @@ body{
 /*  mobile */
 @media screen and (max-width:350px) {
     h1{
-        font: 2.6rem;
+        font: 2.4rem;
+        font-weight: 400;
     }
     h2{
-        font-size: 2.4rem;
+        font-size: 2.2rem;
+        font-weight: 400;
     }
     h3{
-        font-size: 2.3rem;
+        font-size: 1.9rem;
+        font-weight: 400;
     }
     h4{
-        font-size: 2.3rem;
+        font-size: 1.7rem;
+        font-weight: 400;
     }
 
     .logo{
-        font-size: 3rem;
+        font-size: 1rem;
     }
     .container{
         margin: auto;
@@ -77,18 +80,28 @@ body{
 
 /* tablet */
 @media screen and (min-width:351px) and (max-width:990px) {
+    h1{
+        font-size: 2.7rem;
+        font-weight: 500;
+    }
     h2{
-        font-size: 3rem;
+        font-size: 2.5rem;
+        font-weight: 500;
     }
     h3{
-        font-size: 2.5rem;
+        font-size: 2.1rem;
+        font-weight: 500;
     }
     h4{
-        font-size: 2rem;
+        font-size: 1.7rem;
+        font-weight: 500;
     }
     .container-carousel{
         width: 100%;
     }   
+    .logo{
+        font-size: 2rem;
+    }
     
  }
  
