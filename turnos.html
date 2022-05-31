@@ -39,42 +39,136 @@
 
 
   <!---- comienza MAIN ---->
-  <section>
 
-    <h1>Para una mejor atencion reserva con anticipacion tu turno</h1>
+
+
+  <section class="horarios">
+
+    <h1 class="titulo-damasCaballero">Para una mejor atencion reserva con anticipacion tu turno</h1>
 
     <div class="container" style="margin:10px;">
-      <h3>Horarios: martes a sabados de 9 a 19hs</h3>
+      <h3>Horarios: Martes a Sabados de 9 a 19hs</h3>
     </div>
 
     <div class="container" style="margin:10px;">
-      <h3>Por consultas y reservas comunicate por whatsapp</h3>
-    </div>
-
-    <div class="container" style="margin:10px;">
-      <a href=""><img src="imagenes/whatsapp.png" class="whatsappTurnos"></a>
+      <h3>Por consultas y reservas solicita tu turno y al instante te vamos a confirmar tu lugar</h3>
     </div>
   </section>
+
+
+
+
+  <!---- FORMULARIO ---->
+  <section>
+    <form action="turnos.php" method="post">
+      
+
+        <label>
+          <p>Nombre y Apellido:</p>
+          <input class="datos-cliete" type="text" name="nombre y apellid" placeholder="Nombre y Apellido">
+        </label>
+
+        <label>
+          <p>Direccion:</p>
+          <input class="datos-cliete" type="text" name="direccion" placeholder="Direccion">
+        </label>
+
+        <label>
+          <p>Edad:</p>
+          <input class="datos-cliete" type="number" name="edad" min="15" max="80">
+        </label>
+
+        <label>
+          <p>Numero celular:</p>
+          <input class="datos-cliete" type="number" name="tel" placeholder="153469367">
+        </label>
+
+        <div class="caja-checkbox">
+          <p> Servicio que quieres contratar:</p>
+
+          <label>1- Corte caballero
+            <input type="checkbox" name="servivio" value="corte">
+          </label>
+
+          <label>2- Barba
+            <input type="checkbox" name="servivio" value="barba">
+          </label>
+
+          <label>3- Corte y Barba
+            <input type="checkbox" name="servivio" value="corte y barba">
+          </label>
+
+          <label>4- Corte dama
+            <input type="checkbox" name="servivio" value="corte dama">
+          </label>
+
+          <label>5- Reflejos
+            <input type="checkbox" name="servivio" value="reflejos">
+          </label>
+
+          <label>6- Alisado
+            <input type="checkbox" name="servivio" value="alisado">
+          </label>
+
+          <label>7- Hidratacion
+            <input type="checkbox" name="servivio" value="hidratacion">
+          </label>
+
+          <label>8- Uñas
+            <input type="checkbox" name="servivio" value="uñas">
+          </label>
+
+          <label>9- Masajes
+            <input type="checkbox" name="servivio" value="masajes">
+          </label>
+
+          <label>10-Depilacion
+            <input type="checkbox" name="servivio" value="depilacion">
+          </label>
+
+          <label>11- Otro
+            <input type="checkbox" name="servivio" value="otro">
+          </label>
+        </div>
+
+      <label>
+        <p>¿Que dia y horario prefieres el turno?:</p>
+        <input class="comentario" type="text" placeholder="Agregar dias y horarios posibles">
+      </label>
+
+
+      <input type="button" value="Solicitar turno" class="button">
+      
+    </form>
+  </section>
+  <!---- fin FORMULARIO ---->
+
+
+
+
+
+
+
 
   <!---- fin MAIN ---->
 
- <!---- comienzo FOOTER ---->
- <footer>
-  <section class="footer">
+  <!---- comienzo FOOTER ---->
+  <footer>
+    <section class="footer">
       <div class="copyright">
-          <h4 class="copyright-item">Copyright - todos los derechos reservados</h4>
+        <h4 class="copyright-item">Copyright - todos los derechos reservados</h4>
       </div>
 
       <div class="redsocial-container">
-          <a href="https://www.instagram.com/leo.digiorgio/"><img src="imagenes/instagram.png" alt="logo instagram"
-                  class="redsocial-item-instagram"></a>
-          <a href="https://www.facebook.com/leonel.digiorgio/"><img src="imagenes/facebook.png" alt="logo facebook"
-                  class="redsocial-item-facebook"></a>
-          <a href="whatsapp"><img src="imagenes/whatsapp.png" alt="logo whatsapp" class="redsocial-item-whatsapp"></a>
+        <a href="https://www.instagram.com/leo.digiorgio/"><img src="imagenes/instagram.png" alt="logo instagram"
+            class="redsocial-item-instagram"></a>
+        <a href="https://www.facebook.com/leonel.digiorgio/"><img src="imagenes/facebook.png" alt="logo facebook"
+            class="redsocial-item-facebook"></a>
+        <a href="whatsapp"><img src="imagenes/whatsapp.png" alt="logo whatsapp" class="redsocial-item-whatsapp"></a>
       </div>
-  </section>
-</footer>
-<!---- fin FOOTER ---->
+    </section>
+  </footer>
+  <!---- fin FOOTER ---->
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"

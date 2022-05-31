@@ -1,0 +1,60 @@
+.horarios{
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+form{
+    width: 80%;
+    min-height: 700px;
+    border-radius: 6px;
+    background-color: nth($colores, 3 );
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 30px;
+    margin: 20px auto;
+}
+
+label{
+    /**display: flex;**/
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: nth($colores, 2 );
+}
+p{
+    font-size: 1.8rem;
+    color: nth($colores, 2 );
+    margin: 10px;
+}
+.datos-cliete{
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+}
+.comentario{
+    width: 90%; 
+    height: 100px;
+    padding: 10px;
+}
+
+.button{
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 15px 2px;
+    padding: 10px;
+    background-color: nth($colores, 2 );
+    color: nth($colores, 3 );
+    font-weight: 600;
+}
+.caja-checkbox{
+    width: 95%;
+    margin: 25px; 
+    padding: 0px 30px; 
+    
+}
+input{
+    border-radius: 6px;
+}
