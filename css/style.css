@@ -120,19 +120,19 @@ body {
   margin: 0px auto 20px auto;
   padding: 20px;
   text-align: center;
-  background-color: rgb(43, 41, 50);
+  background-color: #4f4b52;
 }
 .animaciones .animaciones-letras {
-  color: rgb(255, 248, 243);
+  color: #e8e6ed;
   margin: 10px auto;
 }
 
 .animaciones-letras:hover {
-  color: rgb(198, 155, 123);
+  color: #fa442c;
 }
 
 .footer {
-  background-color: rgb(43, 41, 50);
+  background-color: rgb(0, 0, 0);
   display: flex;
   flex-wrap: wrap-reverse;
   justify-content: space-around;
@@ -147,7 +147,7 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
-  color: rgb(255, 248, 243);
+  color: rgb(146, 146, 146);
 }
 .footer .redsocial-container {
   width: 330px;
@@ -174,13 +174,18 @@ body {
   background-color: rgb(30, 174, 30);
 }
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
 header .navbar .container-fluid .logo {
-  color: rgb(255, 248, 243);
+  color: #e8e6ed;
   font-size: 3.1rem;
   text-decoration: none;
 }
 header .navbar .container-fluid .logo:hover {
-  color: rgb(198, 155, 123);
+  color: #fa442c;
 }
 header .navbar .container-fluid div div .nav-link {
   font-size: 1.7rem;
@@ -213,7 +218,7 @@ header .navbar .container-fluid div div .nav-link {
 .marcas {
   width: 90%;
   margin: 0px auto 20px auto;
-  background-color: rgb(43, 41, 50);
+  background-color: #4f4b52;
 }
 .marcas .marcas-item {
   align-items: center;
@@ -233,8 +238,8 @@ header .navbar .container-fluid div div .nav-link {
   margin: 25px auto 0px auto;
   padding: 10px;
   font-weight: 300;
-  background-color: rgb(43, 41, 50);
-  color: rgb(255, 248, 243);
+  background-color: #4f4b52;
+  color: #e8e6ed;
 }
 
 .damas-imagen {
@@ -296,7 +301,7 @@ form {
   width: 80%;
   min-height: 700px;
   border-radius: 6px;
-  background-color: rgb(43, 41, 50);
+  background-color: #4f4b52;
   font-family: "Raleway", sans-serif;
   font-size: 2rem;
   font-weight: 800;
@@ -309,12 +314,12 @@ label {
   display: block;
   font-size: 1.8rem;
   font-weight: 500;
-  color: rgb(198, 155, 123);
+  color: #fa442c;
 }
 
 p {
   font-size: 1.8rem;
-  color: rgb(198, 155, 123);
+  color: #fa442c;
   margin: 10px;
 }
 
@@ -336,8 +341,8 @@ p {
   border-radius: 6px;
   margin: 15px 2px;
   padding: 10px;
-  background-color: rgb(198, 155, 123);
-  color: rgb(43, 41, 50);
+  background-color: rgb(0, 0, 0);
+  color: #fa442c;
   font-weight: 600;
 }
 
