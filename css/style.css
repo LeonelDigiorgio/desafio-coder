@@ -310,7 +310,6 @@ form {
 }
 
 label {
-  /**display: flex;**/
   display: block;
   font-size: 1.8rem;
   font-weight: 500;
@@ -354,6 +353,14 @@ p {
 
 input {
   border-radius: 6px;
+  border: 2px black solid;
+}
+
+.caja-formulario {
+  border: 1px black solid;
+  -webkit-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
+  box-shadow: 37px -22px 102px -47px rgba(0, 0, 0, 0.75);
 }
 
 /*# sourceMappingURL=style.css.map */
