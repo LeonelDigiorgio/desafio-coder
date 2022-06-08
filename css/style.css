@@ -43,13 +43,9 @@ h4 {
 body {
   width: 100%;
   background-color: white;
-  /* ----------------------------------------------- empieza MEDIA QUERIES */
-  /*  mobile */
+  min-height: 100vh;
 }
 @media screen and (max-width: 350px) {
-  body body {
-    height: 100vh;
-  }
   body h1 {
     font: 2.4rem;
     font-weight: 400;
