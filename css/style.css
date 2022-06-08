@@ -47,9 +47,6 @@ body {
   /*  mobile */
 }
 @media screen and (max-width: 350px) {
-  body {
-    /* tablet */
-  }
   body body {
     height: 100vh;
   }
