@@ -1,4 +1,4 @@
-class Servicios{
+/* class Servicios{
     constructor(tipo, precio){
         this.tipo = tipo;
         this.precio = precio;
@@ -77,9 +77,28 @@ switch (turno) {
         alert(`Tu turno es el dia: ${viernes.dia} en el horario de: ${viernes.horario}`)
         break;    
     }
+ */
 
 
+    let formulario = document.getElementById("formulario");
+    formulario.addEventListener("submit", validarFormulario);
 
-
-
-
+    function validarFormulario(e){
+        e.preventDefault();
+        console.log(e.target[0].value);
+        console.log(e.target[1].value);
+        console.log(e.target[2].value);
+        console.log(e.target[3].value);
+        console.log(e.target[5].value);
+        console.log(e.target[6].value);
+        console.log(e.target[7].value);
+        console.log(e.target[8].value);
+        console.log(e.target[9].value);
+        console.log(e.target[10].value);
+        console.log(e.target[11].value);
+        console.log(e.target[12].value);
+        console.log(e.target[13].value);
+        console.log(e.target[14].value);
+        console.log(e.target[15].value);
+        console.log(e.target[16].value);
+        }
